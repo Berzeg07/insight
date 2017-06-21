@@ -49,8 +49,12 @@ h1 {
 
 h2 {
   font-weight: 600;
-  font-size: 35px;
-  text-align: center; }
+  font-size: 25px;
+  text-align: center;
+  padding-bottom: 44px; }
+  @media screen and (min-width: 768px) {
+    h2 {
+      font-size: 30px; } }
 
 a {
   -webkit-transition: 0.5s;
@@ -162,7 +166,11 @@ a {
             font-size: 20px; } }
 
 .slider-wrap {
-  margin-top: 30px; }
+  margin-top: 30px;
+  display: none; }
+  @media screen and (min-width: 768px) {
+    .slider-wrap {
+      display: block; } }
 
 #slider .owl-dots {
   display: none;
@@ -197,8 +205,7 @@ a {
     .uslugi-wrap {
       background: url(../img/bg.png) no-repeat top 150px right; } }
   .uslugi-wrap h2 {
-    text-align: center;
-    padding-bottom: 44px; }
+    text-align: center; }
 
 .uslugi-box {
   text-align: center;
@@ -221,5 +228,34 @@ a {
     background: url(../img/s3.png) no-repeat top -1px center; }
   .uslugi-box__4 {
     background: url(../img/s4.png) no-repeat top -1px center; }
+
+.price-wrap {
+  padding: 30px 0px; }
+
+.price-box {
+  max-width: 800px;
+  margin: 0 auto; }
+  .price-box ul li {
+    margin-bottom: 15px;
+    font-weight: 500;
+    font-size: 11px;
+    background: url(../img/galka.png) no-repeat left center;
+    padding-left: 30px;
+    height: 22px; }
+    @media screen and (min-width: 480px) {
+      .price-box ul li {
+        font-size: 15px; } }
+    @media screen and (min-width: 992px) {
+      .price-box ul li {
+        font-size: 18px; } }
+    .price-box ul li b {
+      font-weight: 600;
+      color: orange; }
+  .price-box p {
+    padding-top: 70px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+    text-decoration: underline; }
 
 /*# sourceMappingURL=style.css.map */
