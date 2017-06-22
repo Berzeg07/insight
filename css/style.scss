@@ -450,3 +450,66 @@ a{
     font-weight: 500;
     color:#fff;
 }
+#mask { position:absolute; left:0; top:0;  z-index:9000;  background-color:#000; width: 100%; height: 100%;  display:none; }
+
+.window{ 
+    display: none;
+    position:absolute;
+    left:0;  
+    top:0;
+    display:none;
+    z-index:9998; 
+    border:none;
+    .form-wrap-main{
+        max-width: 400px;
+        border:2px solid orange;
+        background: #fff;
+        border-radius:10px;
+        padding: 30px 20px;
+        text-align: center;
+    }
+    .dd-close{
+        width: 10px;
+        height: 10px;
+        position:absolute;
+        top:4px;
+        right: 11px;
+        cursor: pointer;
+        transition: 0.5s;
+        border-radius:10px;
+        color:black;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .dd-close:hover{
+        color:orange;
+    }
+}
+.my-input{
+    width: 100%;
+    outline: none;
+    border:1px solid orange;
+    padding-left: 15px;
+    padding-right: 10px;
+    font-size: 15px;
+    height: 40px;
+    margin-bottom: 15px;
+}
+.form-button{
+    color:#fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    width: 211px;
+    margin: 0 auto;
+    outline: none;
+    height: 40px;
+    border:none;
+    background:orange;
+    -webkit-transition:0.5s;
+    transition:0.5s;
+    text-align: center;
+    &:hover{
+        background:#FFDE39;
+        color:black;
+    }
+}

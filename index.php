@@ -23,7 +23,7 @@
 					</div>
 				</div>
 				<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-					<div class="header__box">
+					<div class="header__box" id="header">
 						<div class="header__box_title">
 							<h1>Разработка сайтов в Нальчике</h1>
 							<span>Сайты под ключ, веб дизайн, сео продвижение</span>
@@ -32,11 +32,11 @@
 							<div class="bars">
 								<i class="fa fa-bars" aria-hidden="true"></i>
 							</div>
-							<ul class="nav">
-								<li><a href="#">Главная</a></li>
-								<li><a href="#">Услуги</a></li>
-								<li><a href="#">Портфолио</a></li>
-								<li><a href="#">Контакты</a></li>
+							<ul class="nav" id="js-nav">
+								<li><a href="#header">Главная</a></li>
+								<li><a href="#uslugi">Услуги</a></li>
+								<li><a href="#portfolio">Портфолио</a></li>
+								<li><a href="#contacts">Контакты</a></li>
 							</ul>
 						</div>
 					</div>
@@ -44,7 +44,7 @@
 				<div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
 					<div class="header__box header__box_tel">
 						<span>+7(928)-700-50-86</span><br/>
-						<a href="#">Заказать звонок</a>
+						<a href="#log-in" name="modal">Заказать звонок</a>
 					</div>
 				</div>
 			</div>
@@ -91,7 +91,7 @@
 	<!-- End Slider Header -->
 
 	<!-- Uslugi -->
-	<div class="uslugi-wrap">
+	<div class="uslugi-wrap" id="uslugi">
 		<div class="container">
 			<h2>Услуги</h2>
 			<div class="row">
@@ -142,7 +142,7 @@
 		</div>
 
 		<!-- Portfolio -->
-		<div class="portfolio-wrap">
+		<div class="portfolio-wrap" id="portfolio">
 			<div class="container">
 				<h2>Портфолио работ</h2>
 				<div id="slider-folio">
@@ -202,17 +202,17 @@
 					<h2>Заказать сайт в Нальчике</h2>
 					<p>Узнайте стоимость разработки под ваши задачи</p>
 					<b>Отправить заявку прямо сейчас</b>
-					<form action="#">
+					<form class="form-message" action="#">
 						<input type="text" name="uname" placeholder="Ваше имя" required>
 						<input class="phone" type="text" name="phone" placeholder="Ваш телефон" required>
-						<input type="submit" value="Отправить">
+						<input type="submit" name="submit" value="Отправить">
 					</form>
 				</div>
 			</div>
 
 			<!-- Map -->
 			<div class="container">
-				<div class="contact-box">
+				<div class="contact-box" id="contacts">
 					<h3>Контакты</h3>
 					<span>+7(8662) 76-04-04</span><br/>
 					<span>+7 (928) 700-50-86</span><br/>
@@ -232,6 +232,35 @@
 				</div>
 			</div>
 			
+
+
+			<div id="mask"></div>
+			<div id="log-in" class="window">
+				<div class="dd-form-wrap">
+					<form class="form-message" class="form1" action="#" method="post">
+						<div class="form-wrap-main">
+							<div class="dd-close">Х</div>
+							<div class="dd-input-wrap dd-padding-bottom">
+								<input class="my-input" type="text" placeholder="Ваше имя" name="uname" required>
+								<input class="my-input phone" type="text" placeholder="Ваш телефон" name="phone" required>
+							</div>
+							<input type="submit" class="form-button" name="submit" value="Заказать звонок">
+						</div>
+					</form>
+				</div>
+			</div>
+			<div id="thanks" class="window">
+				<div class="form-wrap-main">
+					<div class="dd-close">Х</div>
+					<div class="form-title">
+						Спасибо за заявку!
+					</div>
+					<div class="dd-form-txt">
+						Наш менеджер свяжется с вами в ближайшее время!
+					</div>
+				</div>
+			</div>
+			<a href="#thanks" name="modal"></a>
 			
 
 

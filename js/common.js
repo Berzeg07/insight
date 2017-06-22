@@ -5,15 +5,26 @@ $(document).ready(function(){
 		m.preventDefault();
 		$(".nav").slideToggle(500);
 	});
-	// Конец Мобильное меню
+	
+    // Якоря
+    $(function() {
+        $("#js-nav a").click(function(e){
+            e.preventDefault();
+            var currentBlock = $(this).attr("href");
+            currentBlockoffset = $(currentBlock).offset().top;
+            $("html, body").animate({
+                scrollTop: currentBlockoffset
+            }, 500);
+        });
+    });  
 
-   var owl2 = $("#slider");
-   owl2.owlCarousel({
-    loop:true,
-    nav:true, 
-    autoplay:true,
-    smartSpeed:1000,
-    margin:0,
+    var owl2 = $("#slider");
+    owl2.owlCarousel({
+        loop:true,
+        nav:true, 
+        autoplay:true,
+        smartSpeed:1000,
+        margin:0,
         center:false,     //если нужны обрезаные края
         navText:['<span class="nav-left"></span>','<span class="nav-right"></span>'],
         responsive:{
@@ -24,29 +35,29 @@ $(document).ready(function(){
     });
 
 
-   var owl2 = $("#slider-folio");
-   owl2.owlCarousel({
-    loop:true,
-    nav:true, 
-    autoplay:true,
-    smartSpeed:700,
-    margin:20,
+    var owl2 = $("#slider-folio");
+    owl2.owlCarousel({
+        loop:true,
+        nav:true, 
+        autoplay:true,
+        smartSpeed:700,
+        margin:20,
         center:false,     //если нужны обрезаные края
         navText:['<span class="nav-left"></span>','<span class="nav-right"></span>'],
         responsive:{
             0:{
                 items:1
             },
-             480:{
+            480:{
                 items:2 
             },
             768:{
                 items:3
             },  
-              992:{
+            992:{
                 items:4
             },  
-              1240:{
+            1240:{
                 items:5
             },         
         }
@@ -87,7 +98,9 @@ $(document).ready(function(){
     	$('#mask').hide();
     	$('.window').hide();
     }); 
+
     $(".phone").mask("+ 7 (999) 999 - 99 - 99?"); 
+
     $(".form-message").submit(function() { 
     	var tel = $(this).find('input[name="phone"]');
     	var empty = false;
