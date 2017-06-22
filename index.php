@@ -196,6 +196,20 @@
 			</div>
 		</div>
 
+		<!-- Form -->
+		<div class="form-wrap">
+			<div class="container">
+				<h2>Заказать сайт в Нальчике</h2>
+				<p>Узнайте стоимость разработки под ваши задачи</p>
+				<b>Отправить заявку прямо сейчас</b>
+				<form action="#">
+					<input type="text" name="uname" placeholder="Ваше имя" required>
+					<input class="phone" type="text" name="phone" placeholder="Ваш телефон" required>
+					<input type="submit" value="Отправить">
+				</form>
+			</div>
+		</div>
+
 
 
 

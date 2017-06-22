@@ -58,8 +58,8 @@ h2{
     }
 }
 a{
-   -webkit-transition:0.5s;
-   transition:0.5s;
+ -webkit-transition:0.5s;
+ transition:0.5s;
 }
 
 /*====================================*/
@@ -187,9 +187,9 @@ a{
 .slider-wrap{
     margin-top: 30px;
     display: none;
-     @media screen and (min-width: 768px) {
+    @media screen and (min-width: 768px) {
         display: block;
-     }
+    }
 }
 #slider{
 
@@ -279,7 +279,7 @@ a{
             @media screen and (min-width: 480px) {
                 font-size: 15px;
             }
-               @media screen and (min-width: 992px) {
+            @media screen and (min-width: 992px) {
                 font-size: 18px;
             }
             b{
@@ -300,13 +300,15 @@ a{
     background:url(../img/bgfolio.jpg) no-repeat top center;
     padding-top: 10px;
     padding-bottom: 40px;
+    margin-top: 40px;
     h2{
         text-align: center;
         padding: 35px 0px;
     }
 }
 #slider-folio{
-     .nav-left{
+    @media screen and (min-width: 768px) {
+       .nav-left{
         background:rgba(red, 0.7) url(../img/left.png) no-repeat top 8px center;
         width: 40px;
         height: 46px;
@@ -334,34 +336,92 @@ a{
             background:rgba(red, 1) url(../img/right.png) no-repeat top 8px center;
         }
     }
-    .item__box_folio{
-        position: relative;
-        span{
-            display: none;
-            position: absolute;
-            z-index: 9999;
-            top: 40%;
-            left: 50%;
-            transform:translateX(-50%);
-            color:#fff;
-            font-size: 15px;
-            font-weight: 500;
-            text-align: center;
-            width: 100%;
+}
+.item__box_folio{
+    position: relative;
+    span{
+        display: none;
+        position: absolute;
+        z-index: 9999;
+        top: 40%;
+        left: 50%;
+        transform:translateX(-50%);
+        color:#fff;
+        font-size: 15px;
+        font-weight: 500;
+        text-align: center;
+        width: 100%;
+    }
+    &:hover span{
+        display: block;
+    }
+    &:hover:after{
+        position: absolute;
+        content:"";
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background:rgba(black, 0.5);
+    }
+}
+}
+.form-wrap{
+    background:url(../img/mess-bg.jpg) no-repeat top center;
+    width: 100%;
+    background-size:cover;
+    text-align: center;
+    padding: 55px 0px 100px;
+    h2, p{
+        color:#fff;
+    }
+    p{
+        font-weight: 600;
+        font-size: 20px;
+        text-transform: uppercase;
+        padding-bottom: 20px;
+    }
+    b{
+        color:#FF8800;
+        font-weight: 500;
+        font-size: 18px;
+        display: inline-block;
+        padding-top: 25px;
+        padding-bottom: 30px;
+    }
+    input[type="text"]{
+        width: 100%;
+        height: 50px;
+        padding-left: 15px;
+        padding-right: 15px;
+        outline: none;
+        border:none;
+        margin-bottom: 25px;
+        @media screen and (min-width: 768px) {
+            width: 33%;
         }
-        &:hover span{
-            display: block;
+    }
+    input[type="submit"]{
+        width: 80%;
+        background:orange;
+        color:#fff;
+        font-weight: 600;
+        font-size: 15px;
+        text-align: center;
+        height: 50px;
+        text-transform: uppercase;
+        border:none;
+        outline: none;
+        -webkit-transition:0.5s;
+        transition:0.5s;
+        @media screen and (min-width: 768px) {
+            width: 33%;
         }
-        &:hover:after{
-            position: absolute;
-            content:"";
-            width: 100%;
-            height: 100%;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background:rgba(black, 0.5);
+        &:hover{
+            background:#FFDE39;
+            color:black;
         }
     }
 }
