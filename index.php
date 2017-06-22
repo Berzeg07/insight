@@ -148,7 +148,7 @@
 				<div id="slider-folio">
 
 					<div class="item">
-					<a href="http://www.zapovednikkbr.ru/" target="_blank">
+						<a href="http://www.zapovednikkbr.ru/" target="_blank">
 							<div class="item__box_folio">
 								<img class="img-responsive" src="img/f1.png" alt="">
 								<span>Заповедник КБР</span>
@@ -157,7 +157,7 @@
 					</div>	
 
 					<div class="item">
-					<a href="http://www.wonderfull-nature.com/index.php/ru/" target="_blank">
+						<a href="http://www.wonderfull-nature.com/index.php/ru/" target="_blank">
 							<div class="item__box_folio">
 								<img class="img-responsive" src="img/f2.png" alt="">
 								<span>Удивительная природа северного кавказа</span>
@@ -166,7 +166,7 @@
 					</div>	
 
 					<div class="item">
-					<a href="http://sultansk.ru/" target="_blank">
+						<a href="http://sultansk.ru/" target="_blank">
 							<div class="item__box_folio">
 								<img class="img-responsive" src="img/f3.png" alt="">
 								<span>Рекламная индустрия "Султан СК"</span>
@@ -175,7 +175,7 @@
 					</div>	
 
 					<div class="item">
-					<a href="http://niveliri.ru/" target="_blank">
+						<a href="http://niveliri.ru/" target="_blank">
 							<div class="item__box_folio">
 								<img class="img-responsive" src="img/f4.png" alt="">
 								<span>"ООО" НИВЕЛИР</span>
@@ -184,31 +184,55 @@
 					</div>	
 
 					<div class="item">
-					<a href="https://garantstroy07.ru/" target="_blank">
+						<a href="https://garantstroy07.ru/" target="_blank">
 							<div class="item__box_folio">
 								<img class="img-responsive" src="img/f5.png" alt="">
 								<span>Гарант Строй 07<span>
-							</div>
-						</a>
-					</div>	
+								</div>
+							</a>
+						</div>	
 
+					</div>
 				</div>
 			</div>
-		</div>
 
-		<!-- Form -->
-		<div class="form-wrap">
-			<div class="container">
-				<h2>Заказать сайт в Нальчике</h2>
-				<p>Узнайте стоимость разработки под ваши задачи</p>
-				<b>Отправить заявку прямо сейчас</b>
-				<form action="#">
-					<input type="text" name="uname" placeholder="Ваше имя" required>
-					<input class="phone" type="text" name="phone" placeholder="Ваш телефон" required>
-					<input type="submit" value="Отправить">
-				</form>
+			<!-- Form -->
+			<div class="form-wrap">
+				<div class="container">
+					<h2>Заказать сайт в Нальчике</h2>
+					<p>Узнайте стоимость разработки под ваши задачи</p>
+					<b>Отправить заявку прямо сейчас</b>
+					<form action="#">
+						<input type="text" name="uname" placeholder="Ваше имя" required>
+						<input class="phone" type="text" name="phone" placeholder="Ваш телефон" required>
+						<input type="submit" value="Отправить">
+					</form>
+				</div>
 			</div>
-		</div>
+
+			<!-- Map -->
+			<div class="container">
+				<div class="contact-box">
+					<h3>Контакты</h3>
+					<span>+7(8662) 76-04-04</span><br/>
+					<span>+7 (928) 700-50-86</span><br/>
+					<span>Email: it-nal@mail.ru</span><br/>
+					<span>Адрес: КБР, г.Нальчик, ул. Пушкина, 85, 4 этаж, офис 409</span>
+				</div>
+			</div>
+
+			<div class="map">
+				<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A972cfff6066748a0473ad4d7d4cc5ed14365a9fbaa5b1e9876ebfbbadf90c728&amp;width=100%25&amp;height=400&amp;lang=ru_RU&amp;scroll=false"></script>
+			</div>
+
+			<!-- Footer -->
+			<div class="footer-wrap">
+				<div class="container">
+					<span>2012-2017 © ООО Компания "Инсайт". Все права защищены.</span>
+				</div>
+			</div>
+			
+			
 
 
 
@@ -218,13 +242,13 @@
 
 
 
-		<!-- JS_BLOCK -->
-		<script src="libs/jquery/jquery-1.11.1.min.js"></script>
-		<script src="libs/owl.carousel/owl.carousel.js"></script>
-		<script src="libs/fancybox/jquery.fancybox.pack.js"></script>
-		<script src="js/jquery.maskedinput.min.js"></script>
-		<script src="js/fonts.js"></script>
-		<script src="js/common.js"></script>
+			<!-- JS_BLOCK -->
+			<script src="libs/jquery/jquery-1.11.1.min.js"></script>
+			<script src="libs/owl.carousel/owl.carousel.js"></script>
+			<script src="libs/fancybox/jquery.fancybox.pack.js"></script>
+			<script src="js/jquery.maskedinput.min.js"></script>
+			<script src="js/fonts.js"></script>
+			<script src="js/common.js"></script>
 
-	</body>
-	</html>
+		</body>
+		</html>

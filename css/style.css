@@ -324,7 +324,8 @@ a {
   width: 100%;
   background-size: cover;
   text-align: center;
-  padding: 55px 0px 100px; }
+  padding: 55px 0px 100px;
+  margin-top: 15px; }
   .form-wrap h2, .form-wrap p {
     color: #fff; }
   .form-wrap p {
@@ -369,5 +370,27 @@ a {
     .form-wrap input[type="submit"]:hover {
       background: #FFDE39;
       color: black; }
+
+.map {
+  min-height: 400px; }
+
+.contact-box {
+  padding: 35px 0px 15px;
+  text-align: center; }
+  .contact-box h3 {
+    font-weight: 600;
+    font-size: 32px;
+    padding-bottom: 25px; }
+  .contact-box span {
+    font-weight: 500;
+    font-size: 18px;
+    padding-bottom: 15px; }
+
+.footer-wrap {
+  background: orange;
+  padding: 25px 0px;
+  text-align: center;
+  font-weight: 500;
+  color: #fff; }
 
 /*# sourceMappingURL=style.css.map */
