@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
 	<title>Разработка сайтов в Нальчике</title>
-
+	<meta name="description" content="Разработка высоконагруженных сайтов в Нальчике. Наша фирма с 2012 года занимается разработкой сайтов под ключ любого уровня сложности. Реализуем лучшее решения для вашего бизнеса." />
 	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid-3.3.1.min.css" />
 	<link rel="stylesheet" href="libs/fancybox/jquery.fancybox.css" />
 	<link rel="stylesheet" href="css/style.css">
