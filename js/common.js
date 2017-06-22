@@ -23,6 +23,35 @@ $(document).ready(function(){
         }
     });
 
+
+   var owl2 = $("#slider-folio");
+   owl2.owlCarousel({
+    loop:true,
+    nav:true, 
+    autoplay:true,
+    smartSpeed:700,
+    margin:20,
+        center:false,     //если нужны обрезаные края
+        navText:['<span class="nav-left"></span>','<span class="nav-right"></span>'],
+        responsive:{
+            0:{
+                items:1
+            },
+             480:{
+                items:2 
+            },
+            768:{
+                items:3
+            },  
+              992:{
+                items:4
+            },  
+              1240:{
+                items:5
+            },         
+        }
+    });
+
     // Fancybox
     $("a[rel=group]").fancybox({
         'transitionIn' : 'none',

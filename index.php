@@ -134,12 +134,67 @@
 					<li>Разработка логотипа - <b>2000 рублей</b></li>
 					<li>Разработка корпоративного стиля - <b>от 5000 рублей</b></li>
 					<li>Прочие интернет маркетинг услуги - договорная.
-					Обслуживание информационных систем/программного обеспечения организации - <b>700 за 1 час</b></li>
-				</ul>
-				<p>При заказе сайта - домен и хост в подарок!</p>
+						Обслуживание информационных систем/программного обеспечения организации - <b>700 за 1 час</b></li>
+					</ul>
+					<p>При заказе сайта - домен и хост в подарок!</p>
+				</div>
 			</div>
 		</div>
-	</div>
+
+		<!-- Portfolio -->
+		<div class="portfolio-wrap">
+			<div class="container">
+				<h2>Портфолио работ</h2>
+				<div id="slider-folio">
+
+					<div class="item">
+					<a href="http://www.zapovednikkbr.ru/" target="_blank">
+							<div class="item__box_folio">
+								<img class="img-responsive" src="img/f1.png" alt="">
+								<span>Заповедник КБР</span>
+							</div>
+						</a>
+					</div>	
+
+					<div class="item">
+					<a href="http://www.wonderfull-nature.com/index.php/ru/" target="_blank">
+							<div class="item__box_folio">
+								<img class="img-responsive" src="img/f2.png" alt="">
+								<span>Удивительная природа северного кавказа</span>
+							</div>
+						</a>
+					</div>	
+
+					<div class="item">
+					<a href="http://sultansk.ru/" target="_blank">
+							<div class="item__box_folio">
+								<img class="img-responsive" src="img/f3.png" alt="">
+								<span>Рекламная индустрия "Султан СК"</span>
+							</div>
+						</a>
+					</div>	
+
+					<div class="item">
+					<a href="http://niveliri.ru/" target="_blank">
+							<div class="item__box_folio">
+								<img class="img-responsive" src="img/f4.png" alt="">
+								<span>"ООО" НИВЕЛИР</span>
+							</div>
+						</a>
+					</div>	
+
+					<div class="item">
+					<a href="https://garantstroy07.ru/" target="_blank">
+							<div class="item__box_folio">
+								<img class="img-responsive" src="img/f5.png" alt="">
+								<span>Гарант Строй 07<span>
+							</div>
+						</a>
+					</div>	
+
+				</div>
+			</div>
+		</div>
 
 
 
@@ -149,13 +204,13 @@
 
 
 
-	<!-- JS_BLOCK -->
-	<script src="libs/jquery/jquery-1.11.1.min.js"></script>
-	<script src="libs/owl.carousel/owl.carousel.js"></script>
-	<script src="libs/fancybox/jquery.fancybox.pack.js"></script>
-	<script src="js/jquery.maskedinput.min.js"></script>
-	<script src="js/fonts.js"></script>
-	<script src="js/common.js"></script>
+		<!-- JS_BLOCK -->
+		<script src="libs/jquery/jquery-1.11.1.min.js"></script>
+		<script src="libs/owl.carousel/owl.carousel.js"></script>
+		<script src="libs/fancybox/jquery.fancybox.pack.js"></script>
+		<script src="js/jquery.maskedinput.min.js"></script>
+		<script src="js/fonts.js"></script>
+		<script src="js/common.js"></script>
 
-</body>
-</html>
+	</body>
+	</html>
